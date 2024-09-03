@@ -11,12 +11,14 @@ class Program
         // char x = 'S';
 
         int[] myNum = {1, 2, 3, 4, 5};
-        for (int i = 0; i <= 5; i++) {
+        for (int i = 0; i <= 5; i = i + 1) 
+        {
             Console.WriteLine(i);
         }
 
         string[] myString = {"First", "Second", "Third", "Fourth", "Fifth"};
-        foreach (string i in myString) {
+        foreach (string i in myString) 
+        {
             Console.WriteLine(i);
         }
 
@@ -26,7 +28,8 @@ class Program
         myList.Add("Delta");
         myList.Add("Phi");
         myList.Add("Omega");
-        foreach (string i in myList) {
+        foreach (string i in myList) 
+        {
             Console.WriteLine(i);
         }
 
